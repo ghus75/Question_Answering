@@ -11,7 +11,7 @@ The code is written in python 2.7 and uses starter files from Stanford CS224n De
 # Training
   $ source activate squad
   
-  $ python main.py --experiment_name=<YOUR EXPERIMENT NAME> --mode=train
+  $ python main.py --experiment_name=YOUR_EXPERIMENT_NAME --mode=train
 
 Lots other options are available for the command line (see flags defined in main.py)
 Training takes 10-20 hours using a 12Gb GPU.
@@ -19,9 +19,9 @@ Training takes 10-20 hours using a 12Gb GPU.
 # Inspecting output
 Show some examples:
 
-  $ python main.py --experiment_name=<YOUR EXPERIMENT NAME> --mode=show_examples
+  $ python main.py --experiment_name=YOUR_EXPERIMENT_NAME --mode=show_examples
 
 # Run official eval locally
   $ python main.py <OTHER FLAGS> --mode=official_eval \
   --json_in_path=data/tiny-dev.json \
-  --ckpt_load_dir=experiments/<YOUR EXPERIMENT NAME>/best_checkpoint
+  --ckpt_load_dir=experiments/YOUR_EXPERIMENT_NAME/best_checkpoint
