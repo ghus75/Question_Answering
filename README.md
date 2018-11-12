@@ -5,6 +5,9 @@ The current implementation evaluated on the dev set yields EM = 65.7, F1 = 76.
 
 The code is written in python 2.7 and uses starter files from Stanford CS224n Deep learning & NLP course, available at https://github.com/abisee/cs224n-win18-squad . It includes a script which will create the environment and install all the necessary dependencies.
 
+![Alt text](https://allenai.github.io/bi-att-flow/BiDAF.png)
+
+
 # Installing
   $ get_started.sh
 
