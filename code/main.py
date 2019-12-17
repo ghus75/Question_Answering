@@ -138,12 +138,12 @@ def main(unused_argv):
     
     
     # Get filepaths to train/dev datafiles for tokenized queries, contexts and answers
-    train_context_path = os.path.join(FLAGS.data_dir, "train.context_")
-    train_qn_path = os.path.join(FLAGS.data_dir, "train.question_")
-    train_ans_path = os.path.join(FLAGS.data_dir, "train.span_")
-    dev_context_path = os.path.join(FLAGS.data_dir, "dev.context_")
-    dev_qn_path = os.path.join(FLAGS.data_dir, "dev.question_")
-    dev_ans_path = os.path.join(FLAGS.data_dir, "dev.span_")
+    train_context_path = os.path.join(FLAGS.data_dir, "train.context")
+    train_qn_path = os.path.join(FLAGS.data_dir, "train.question")
+    train_ans_path = os.path.join(FLAGS.data_dir, "train.span")
+    dev_context_path = os.path.join(FLAGS.data_dir, "dev.context")
+    dev_qn_path = os.path.join(FLAGS.data_dir, "dev.question")
+    dev_ans_path = os.path.join(FLAGS.data_dir, "dev.span")
 
     # char mappings
     emb_alphabet, char2id, id2char = get_alphabet(train_context_path)
